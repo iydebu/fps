@@ -4,11 +4,26 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>fps</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="Simple Fps Movement" />
+    <meta property="og:site_name" content="Iydebu Fps" />
+    <meta property="og:title" content="Iydebu Fps" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Simple Fps Movement" />
+    <meta
+      property="og:image"
+      content="https://i.ibb.co/x224zZt/Screenshot-2023-03-06-001230.png"
+    />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1280" />
+    <meta property="og:image:height" content="800" />
+    <meta property="og:url" content="https://iydebu.me/fps" />
+    <meta property="twitter:card" content="summary_large_image" />
     <link rel="shortcut icon" href="TemplateData/fps.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
-    <div id="unity-container" style="width: 100%; height: 100%;">
+    <div id="unity-container" class="unity-desktop" style="width: 100%; height: 100%;">
       <canvas id="unity-canvas" width=auto height=auto></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
@@ -16,12 +31,12 @@
           <div id="unity-progress-bar-full"></div>
         </div>
       </div>
-      <!-- <div id="unity-warning"> </div>
+      <div id="unity-warning"> </div>
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
         <div id="unity-build-title">fps</div>
-      </div> -->
+      </div>
     </div>
     <script>
       var container = document.querySelector("#unity-container");
